@@ -1,6 +1,6 @@
-def unit_function(UNIT_TESTS) {
+def unit_function(blabla) {
 //    catchError(buildResult: 'Unstable', stageResult: 'FAILURE') {
-    if ("${UNIT_TESTS}" == 'on') {
+    if ("${blabla}" == 'on') {
         sh "cat test123123123.file"
     }
     
