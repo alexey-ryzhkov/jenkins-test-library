@@ -4,7 +4,7 @@ def unit_function(UNIT_TESTS) {
         sh "cat test123123123.file"
     }
     else {
-        sh "echo "Tests have been skipped""
+        sh "echo testing echo"
     }
 
 }
