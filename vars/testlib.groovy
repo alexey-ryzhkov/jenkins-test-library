@@ -5,7 +5,7 @@ def unit_function(UNIT_TESTS) {
     }
     
     else {
-        sh 'echo "testing echo"'
+        sh 'echo "testing echo from branch new_branch"'
     }
     
 //    }
