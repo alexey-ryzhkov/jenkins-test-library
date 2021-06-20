@@ -11,3 +11,15 @@ def unit_function(blabla) {
 //    }
     
 }
+
+def variable_check(test_env) {
+
+    if ("${test_env}" == '1') {
+        sh 'echo "The number was 1"'
+    }
+    
+    else {
+        sh 'echo "The number was SOMETHING ELSE"'
+    }
+
+}
